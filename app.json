@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "zoom-city",
+    "slug": "zoom-city",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/drawables/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#073B4C"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#073B4C"
+      },
+      "package": "com.uroskovcic.zoomcity"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c9653315-a762-4e3b-8b96-14b15b3c4ad5"
+      }
+    },
+    "owner": "uroskovcic"
+  }
+}
